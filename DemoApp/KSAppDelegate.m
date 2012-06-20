@@ -8,6 +8,9 @@
 
 #import "KSAppDelegate.h"
 
+#import "PTKeyCombo.h"
+#import "PTHotkey.h"
+#import "PTHotkeyCenter.h"
 
 @implementation KSAppDelegate
 
@@ -16,6 +19,8 @@
 NSString *HotKeyAppToFrontName = @"application to foreground";
 static NSString *AppActivationKeyCodeKey = @"AppActivationKeyCode";
 static NSString *AppActivationModifiersKey = @"AppActivationModifiers";
+
+#pragma mark NSApplicationDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -29,9 +34,7 @@ static NSString *AppActivationModifiersKey = @"AppActivationModifiers";
     return YES;
 }
 
-- (IBAction)setAppShortcut:(id)sender {
-	[[PTKeyComboPanel sharedPanel] showSheetForHotkey:[self appActivationHotKey] forWindow:_window modalDelegate:self]; // Change _window to the window you want the sheet to come down from
-}
+#pragma mark keyComboPanelDelegate
 
 - (void)keyComboPanelEnded:(PTKeyComboPanel*)panel {
 	PTKeyCombo *oldKeyCombo = [self appActivationKeyCombo];
@@ -45,6 +48,13 @@ static NSString *AppActivationModifiersKey = @"AppActivationModifiers";
 	}
 
 }
+
+#pragma mark -
+
+- (IBAction)setAppShortcut:(id)sender {
+	[[PTKeyComboPanel sharedPanel] showSheetForHotkey:[self appActivationHotKey] forWindow:_window modalDelegate:self]; // Change _window to the window you want the sheet to come down from
+}
+
 
 - (IBAction)toggle:(id)sender {
     if ([_window isKeyWindow]) {

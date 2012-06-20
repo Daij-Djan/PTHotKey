@@ -8,14 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 #import "PTKeyComboPanel.h"
-#import "PTKeyCombo.h"
-#import "PTHotKeyCenter.h"
-#import "PTHotKey.h"
 
-//@class PTKeyCombo; // Not sure why these were used.
-//@class PTHotKey;
-
-@interface KSAppDelegate : NSObject <NSApplicationDelegate> {
+@interface KSAppDelegate : NSObject <NSApplicationDelegate, PTKeyComboPanelDelegate> {
     IBOutlet NSWindow *hotkey;
     IBOutlet NSTextField *appShortcutField;
     PTHotKey *appActivationHotKey;

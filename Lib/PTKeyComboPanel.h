@@ -12,13 +12,19 @@
 @class PTKeyCombo;
 @class PTHotKey;
 
+@class PTKeyComboPanel;
+
+@protocol PTKeyComboPanelDelegate <NSObject>
+- (void)keyComboPanelEnded:(PTKeyComboPanel*)panel;
+@end
+
 @interface PTKeyComboPanel : NSWindowController
 {
 	IBOutlet NSTextField*		mTitleField;
 	IBOutlet NSTextField*		mComboField;
 	IBOutlet PTKeyBroadcaster*	mKeyBcaster;
 	
-	id currentModalDelegate;
+	id<PTKeyComboPanelDelegate> currentModalDelegate;
 
 	NSString*				mTitleFormat;
 	NSString*				mKeyName;
@@ -43,6 +49,3 @@
 @end
 
 
-@interface PTKeyComboPanel (ModalDelegate)
-- (void)keyComboPanelEnded:(PTKeyComboPanel*)panel;
-@end

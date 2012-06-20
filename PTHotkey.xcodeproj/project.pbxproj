@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B493FDC6141378C300C643F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B493FDC5141378C300C643F1 /* Cocoa.framework */; };
+		B4A25673159144E3007D43C2 /* PTHotKey.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A25665159144E3007D43C2 /* PTHotKey.h */; };
+		B4A25674159144E3007D43C2 /* PTHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A25666159144E3007D43C2 /* PTHotKey.m */; };
+		B4A25675159144E3007D43C2 /* PTHotKeyCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A25667159144E3007D43C2 /* PTHotKeyCenter.h */; };
+		B4A25676159144E3007D43C2 /* PTHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A25668159144E3007D43C2 /* PTHotKeyCenter.m */; };
+		B4A25677159144E3007D43C2 /* PTKeyBroadcaster.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A25669159144E3007D43C2 /* PTKeyBroadcaster.h */; };
+		B4A25678159144E3007D43C2 /* PTKeyBroadcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A2566A159144E3007D43C2 /* PTKeyBroadcaster.m */; };
+		B4A25679159144E3007D43C2 /* PTKeyCodeTranslator.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A2566C159144E3007D43C2 /* PTKeyCodeTranslator.h */; };
+		B4A2567A159144E3007D43C2 /* PTKeyCodeTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A2566D159144E3007D43C2 /* PTKeyCodeTranslator.m */; };
+		B4A2567B159144E3007D43C2 /* PTKeyCombo.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A2566E159144E3007D43C2 /* PTKeyCombo.h */; };
+		B4A2567C159144E3007D43C2 /* PTKeyCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A2566F159144E3007D43C2 /* PTKeyCombo.m */; };
+		B4A2567D159144E3007D43C2 /* PTKeyComboPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A25670159144E3007D43C2 /* PTKeyComboPanel.h */; };
+		B4A2567E159144E3007D43C2 /* PTKeyComboPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A25671159144E3007D43C2 /* PTKeyComboPanel.m */; };
+		B4A2568515914513007D43C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B493FDC5141378C300C643F1 /* Cocoa.framework */; };
+		B4A256AE1591458A007D43C2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B4A256A01591458A007D43C2 /* Credits.rtf */; };
+		B4A256B01591458A007D43C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A256A41591458A007D43C2 /* MainMenu.xib */; };
+		B4A256B11591458A007D43C2 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A256A71591458A007D43C2 /* KSAppDelegate.m */; };
+		B4A256B21591458A007D43C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A256A81591458A007D43C2 /* main.m */; };
+		B4A256B41591458A007D43C2 /* PTHotKeyTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4A256AB1591458A007D43C2 /* PTHotKeyTest-Info.plist */; };
+		B4A256B51591458A007D43C2 /* PTHotKeyTest.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = B4A256AD1591458A007D43C2 /* PTHotKeyTest.entitlements */; };
+		B4A256B615914591007D43C2 /* PTKeyCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4A2566B159144E3007D43C2 /* PTKeyCodes.plist */; };
+		B4A256B715914591007D43C2 /* PTKeyComboPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A25672159144E3007D43C2 /* PTKeyComboPanel.xib */; };
+		B4A256BB15914649007D43C2 /* libPTHotkey-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD91E0E14717B4E005F7BA1 /* libPTHotkey-OSX.a */; };
+		B4A256BD15914659007D43C2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A256BC15914659007D43C2 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4A256B91591463A007D43C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48F214114126D7C0001D927;
+			remoteInfo = "PTHotkey-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CD91E0E14717B4E005F7BA1 /* libPTHotkey-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPTHotkey-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B493FDC5141378C300C643F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B4A25665159144E3007D43C2 /* PTHotKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHotKey.h; sourceTree = "<group>"; };
+		B4A25666159144E3007D43C2 /* PTHotKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHotKey.m; sourceTree = "<group>"; };
+		B4A25667159144E3007D43C2 /* PTHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHotKeyCenter.h; sourceTree = "<group>"; };
+		B4A25668159144E3007D43C2 /* PTHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHotKeyCenter.m; sourceTree = "<group>"; };
+		B4A25669159144E3007D43C2 /* PTKeyBroadcaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKeyBroadcaster.h; sourceTree = "<group>"; };
+		B4A2566A159144E3007D43C2 /* PTKeyBroadcaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKeyBroadcaster.m; sourceTree = "<group>"; };
+		B4A2566B159144E3007D43C2 /* PTKeyCodes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = PTKeyCodes.plist; sourceTree = "<group>"; };
+		B4A2566C159144E3007D43C2 /* PTKeyCodeTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKeyCodeTranslator.h; sourceTree = "<group>"; };
+		B4A2566D159144E3007D43C2 /* PTKeyCodeTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKeyCodeTranslator.m; sourceTree = "<group>"; };
+		B4A2566E159144E3007D43C2 /* PTKeyCombo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKeyCombo.h; sourceTree = "<group>"; };
+		B4A2566F159144E3007D43C2 /* PTKeyCombo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKeyCombo.m; sourceTree = "<group>"; };
+		B4A25670159144E3007D43C2 /* PTKeyComboPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKeyComboPanel.h; sourceTree = "<group>"; };
+		B4A25671159144E3007D43C2 /* PTKeyComboPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKeyComboPanel.m; sourceTree = "<group>"; };
+		B4A25672159144E3007D43C2 /* PTKeyComboPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTKeyComboPanel.xib; sourceTree = "<group>"; };
+		B4A2568315914513007D43C2 /* PTHotKeyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTHotKeyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A256A11591458A007D43C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B4A256A31591458A007D43C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4A256A51591458A007D43C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B4A256A61591458A007D43C2 /* KSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		B4A256A71591458A007D43C2 /* KSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
+		B4A256A81591458A007D43C2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4A256A91591458A007D43C2 /* PTHotKeyDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PTHotKeyDemo-Info.plist"; sourceTree = "<group>"; };
+		B4A256AA1591458A007D43C2 /* PTHotKeyDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTHotKeyDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B4A256AB1591458A007D43C2 /* PTHotKeyTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PTHotKeyTest-Info.plist"; sourceTree = "<group>"; };
+		B4A256AC1591458A007D43C2 /* PTHotKeyTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTHotKeyTest-Prefix.pch"; sourceTree = "<group>"; };
+		B4A256AD1591458A007D43C2 /* PTHotKeyTest.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PTHotKeyTest.entitlements; sourceTree = "<group>"; };
+		B4A256BC15914659007D43C2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48F213F14126D7C0001D927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B493FDC6141378C300C643F1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A2568015914513007D43C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A256BD15914659007D43C2 /* Carbon.framework in Frameworks */,
+				B4A256BB15914649007D43C2 /* libPTHotkey-OSX.a in Frameworks */,
+				B4A2568515914513007D43C2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* omtool */ = {
+			isa = PBXGroup;
+			children = (
+				B4A2569F1591458A007D43C2 /* DemoApp */,
+				B4A25664159144E3007D43C2 /* Lib */,
+				B493FDB31413773100C643F1 /* Frameworks */,
+				4CD91E0E14717B4E005F7BA1 /* libPTHotkey-OSX.a */,
+				B4A2568315914513007D43C2 /* PTHotKeyDemo.app */,
+			);
+			name = omtool;
+			sourceTree = "<group>";
+		};
+		B493FDB31413773100C643F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4A256BC15914659007D43C2 /* Carbon.framework */,
+				B493FDC5141378C300C643F1 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4A25664159144E3007D43C2 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B4A256B815914595007D43C2 /* Needed Resources */,
+				B4A25665159144E3007D43C2 /* PTHotKey.h */,
+				B4A25666159144E3007D43C2 /* PTHotKey.m */,
+				B4A25667159144E3007D43C2 /* PTHotKeyCenter.h */,
+				B4A25668159144E3007D43C2 /* PTHotKeyCenter.m */,
+				B4A25669159144E3007D43C2 /* PTKeyBroadcaster.h */,
+				B4A2566A159144E3007D43C2 /* PTKeyBroadcaster.m */,
+				B4A2566C159144E3007D43C2 /* PTKeyCodeTranslator.h */,
+				B4A2566D159144E3007D43C2 /* PTKeyCodeTranslator.m */,
+				B4A2566E159144E3007D43C2 /* PTKeyCombo.h */,
+				B4A2566F159144E3007D43C2 /* PTKeyCombo.m */,
+				B4A25670159144E3007D43C2 /* PTKeyComboPanel.h */,
+				B4A25671159144E3007D43C2 /* PTKeyComboPanel.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B4A2569F1591458A007D43C2 /* DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				B4A256A01591458A007D43C2 /* Credits.rtf */,
+				B4A256A21591458A007D43C2 /* InfoPlist.strings */,
+				B4A256A41591458A007D43C2 /* MainMenu.xib */,
+				B4A256A61591458A007D43C2 /* KSAppDelegate.h */,
+				B4A256A71591458A007D43C2 /* KSAppDelegate.m */,
+				B4A256A81591458A007D43C2 /* main.m */,
+				B4A256A91591458A007D43C2 /* PTHotKeyDemo-Info.plist */,
+				B4A256AA1591458A007D43C2 /* PTHotKeyDemo-Prefix.pch */,
+				B4A256AB1591458A007D43C2 /* PTHotKeyTest-Info.plist */,
+				B4A256AC1591458A007D43C2 /* PTHotKeyTest-Prefix.pch */,
+				B4A256AD1591458A007D43C2 /* PTHotKeyTest.entitlements */,
+			);
+			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		B4A256B815914595007D43C2 /* Needed Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4A2566B159144E3007D43C2 /* PTKeyCodes.plist */,
+				B4A25672159144E3007D43C2 /* PTKeyComboPanel.xib */,
+			);
+			name = "Needed Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B48F214014126D7C0001D927 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A25673159144E3007D43C2 /* PTHotKey.h in Headers */,
+				B4A25675159144E3007D43C2 /* PTHotKeyCenter.h in Headers */,
+				B4A25677159144E3007D43C2 /* PTKeyBroadcaster.h in Headers */,
+				B4A25679159144E3007D43C2 /* PTKeyCodeTranslator.h in Headers */,
+				B4A2567B159144E3007D43C2 /* PTKeyCombo.h in Headers */,
+				B4A2567D159144E3007D43C2 /* PTKeyComboPanel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B48F214114126D7C0001D927 /* PTHotkey-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48F215114126D7C0001D927 /* Build configuration list for PBXNativeTarget "PTHotkey-OSX" */;
+			buildPhases = (
+				B48F213E14126D7C0001D927 /* Sources */,
+				B48F213F14126D7C0001D927 /* Frameworks */,
+				B48F214014126D7C0001D927 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PTHotkey-OSX";
+			productName = "OpenMeta-OSX";
+			productReference = 4CD91E0E14717B4E005F7BA1 /* libPTHotkey-OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B4A2568215914513007D43C2 /* PTHotKeyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A2569C15914514007D43C2 /* Build configuration list for PBXNativeTarget "PTHotKeyDemo" */;
+			buildPhases = (
+				B4A2567F15914513007D43C2 /* Sources */,
+				B4A2568015914513007D43C2 /* Frameworks */,
+				B4A2568115914513007D43C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4A256BA1591463A007D43C2 /* PBXTargetDependency */,
+			);
+			name = PTHotKeyDemo;
+			productName = PTHotKeyDemo;
+			productReference = B4A2568315914513007D43C2 /* PTHotKeyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "PTHotkey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* omtool */;
+			productRefGroup = 08FB7794FE84155DC02AAC07 /* omtool */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48F214114126D7C0001D927 /* PTHotkey-OSX */,
+				B4A2568215914513007D43C2 /* PTHotKeyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4A2568115914513007D43C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A256AE1591458A007D43C2 /* Credits.rtf in Resources */,
+				B4A256B01591458A007D43C2 /* MainMenu.xib in Resources */,
+				B4A256B41591458A007D43C2 /* PTHotKeyTest-Info.plist in Resources */,
+				B4A256B51591458A007D43C2 /* PTHotKeyTest.entitlements in Resources */,
+				B4A256B615914591007D43C2 /* PTKeyCodes.plist in Resources */,
+				B4A256B715914591007D43C2 /* PTKeyComboPanel.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48F213E14126D7C0001D927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A25674159144E3007D43C2 /* PTHotKey.m in Sources */,
+				B4A25676159144E3007D43C2 /* PTHotKeyCenter.m in Sources */,
+				B4A25678159144E3007D43C2 /* PTKeyBroadcaster.m in Sources */,
+				B4A2567A159144E3007D43C2 /* PTKeyCodeTranslator.m in Sources */,
+				B4A2567C159144E3007D43C2 /* PTKeyCombo.m in Sources */,
+				B4A2567E159144E3007D43C2 /* PTKeyComboPanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A2567F15914513007D43C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A256B11591458A007D43C2 /* KSAppDelegate.m in Sources */,
+				B4A256B21591458A007D43C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4A256BA1591463A007D43C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48F214114126D7C0001D927 /* PTHotkey-OSX */;
+			targetProxy = B4A256B91591463A007D43C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4A256A01591458A007D43C2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A256A11591458A007D43C2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B4A256A21591458A007D43C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A256A31591458A007D43C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B4A256A41591458A007D43C2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A256A51591458A007D43C2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.7;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B48F215214126D7C0001D927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = Yes;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B48F215314126D7C0001D927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = Yes;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4A2569D15914514007D43C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoApp/PTHotKeyDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "DemoApp/PTHotKeyDemo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4A2569E15914514007D43C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoApp/PTHotKeyDemo-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "DemoApp/PTHotKeyDemo-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "PTHotkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48F215114126D7C0001D927 /* Build configuration list for PBXNativeTarget "PTHotkey-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48F215214126D7C0001D927 /* Debug */,
+				B48F215314126D7C0001D927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A2569C15914514007D43C2 /* Build configuration list for PBXNativeTarget "PTHotKeyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A2569D15914514007D43C2 /* Debug */,
+				B4A2569E15914514007D43C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
